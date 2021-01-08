@@ -19,3 +19,5 @@ Commands and Features: <br />
 - To play a next song, you should either !stop the current song(also removes current audio) or tell the bot to !leave and !play <subject><br />
 - !giphy <subject> only returns a gif from the top result (number 1), which means multiple of the same command will return the same gif<br />
 - !clear_log is only intended for debugging purposes when I was creating this bot<br />
+
+- You should create an env file where you hold your prefix, Giphy API token, and Youtube API token. 

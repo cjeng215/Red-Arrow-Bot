@@ -1,0 +1,14 @@
+List of Features:
+- private dm welcome message to new user
+- goodbye message in main channel to a leaving user
+- check bot latency to discord server
+- help command for list of commands
+- log messages to log.txt (discord text general channel)
+- displays gif from giphy
+- displays random gif giphy
+- purges a text channel of all its messages ( keep bot active and it'll delete all the way to the end, slowly)
+- plays youtube music
+- pause bot audio
+- resume bot audio
+- stop bot audio (removes previous playing song from active list)
+- !leave - disconnects bot from the called voice channel

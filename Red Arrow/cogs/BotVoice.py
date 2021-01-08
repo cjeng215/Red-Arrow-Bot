@@ -37,10 +37,10 @@ class BotVoice(commands.Cog):
     @commands.command()
     async def play(self, ctx, *, arg):
 
-        song = os.path.isfile('./cogs/song.mp3')
+        song = os.path.isfile('[PATH]song.mp3')
         try:
             if song:
-                os.remove('./cogs/song.mp3')
+                os.remove('.[PATH]song.mp3')
         except PermissionError:
             await ctx.send('Music is currently being played (no queue) or use "stop" command')
             return
@@ -64,8 +64,8 @@ class BotVoice(commands.Cog):
         # move download youtube song to correct directory
         for file in os.listdir('./'):
             if file.endswith(".mp3"):
-                d1 = '/home/slave/Desktop/RedArrow/' + file
-                d2 = '/home/slave/Desktop/RedArrow/cogs/song.mp3'
+                d1 = 'PATH' + file
+                d2 = 'PATH'
                 os.rename(d1, d2)
 
         voice.play(FFmpegPCMAudio("./cogs/song.mp3"))

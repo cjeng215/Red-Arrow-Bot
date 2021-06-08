@@ -1,4 +1,4 @@
-# Red-Arrow-Bot
+# Discord Chat Bot
 
 This is a Discord Bot that I made for my own personal server and learning purposes. 
 
